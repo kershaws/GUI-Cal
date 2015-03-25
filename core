@@ -194,3 +194,15 @@ public class Core extends JFrame {
     }
 
 } //JavaCalculator
+
+
+/*You could do a few things.
+
+1. Instead of creating 10 button objects I would make one a create a loop since you are using pack. You woulf use two ActionListeners
+    then. One for the digit buttons and one for the opertors. You will still use grid layout ;) 
+    
+2. If you want to keep every button object then I would make one listener still for buttons and one for operators 
+
+3. Place your main method above public Core(), Format the code for better understanding (Spacing and Indents)
+
+4. Make the calculator orientation portrait. Hint - setLayout() to something that would do this */
